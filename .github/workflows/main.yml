@@ -85,7 +85,7 @@ jobs:
            path: /home/runner
 
       - name: Move Android File
-        run: mv /home/runner/AndreyWorld-release.apk /home/runner/PsychEngine-Android.apk
+        run: mv /home/runner/AndreyWorld-release.apk /home/runner/AndreyWorld-Android.apk
 
       - name: Download iOS Build
         uses: actions/download-artifact@main
